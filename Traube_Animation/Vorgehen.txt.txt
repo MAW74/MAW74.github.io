@@ -1,0 +1,2 @@
+Alle Bestandteiler nachbauen und die einzelnen Bilder neu abspeichern im png Format. 
+Danach alle einzelnen Bilder benutzen um ein neues Gif zu erstellen. 
