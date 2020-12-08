@@ -1088,8 +1088,8 @@ pre code {
   }
 
   .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .col-md-7 {
@@ -9843,7 +9843,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #ffffff !important;
 }
 
 .text-black-50 {
@@ -10239,4 +10239,55 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 header.masthead .masthead-heading {
   text-shadow: 0 0 5px black;
+}
+
+/*  Custom  */
+
+.btn-primary.custom {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+}
+.btn-primary:hover {
+  color: unset;
+  background-color: #unset;
+  border-color: #unset;
+}
+.btn-primary:focus, .btn-primary.focus {
+  color: unset;
+  background-color: unset;
+  border-color: #unset;
+  box-shadow: unset;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: unset;
+  background-color: #unset;
+  border-color: #unset;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: unset;
+}
+
+.card.card-body {
+  margin: 50px 0;
+  border: none;
+}
+
+.row.custom {
+  display: unset;
+}
+
+.frame-container.custom {
+  width: 49%;
+}
+
+.frame-container.custom .col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
 }
