@@ -10249,28 +10249,28 @@ header.masthead .masthead-heading {
   border-color: unset;
   border: none;
 }
-.btn-primary:hover {
+.btn-primary.custom:hover {
   color: unset;
   background-color: unset;
   border-color: unset;
 }
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary.custom:focus, .btn-primary.custom.focus {
   color: unset;
   background-color: unset;
   border-color: unset;
   box-shadow: unset;
 }
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.custom.disabled, .btn-primary.custom:disabled {
   color: unset;
   background-color: unset;
   border-color: unset;
 }
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+.btn-primary.custom:not(:disabled):not(.disabled):active, .btn-primary.custom:not(:disabled):not(.disabled).active, .show > .btn-primary.custom.dropdown-toggle {
   color: unset;
   background-color: unset;
   border-color: unset;
 }
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary.custom:not(:disabled):not(.disabled):active:focus, .btn-primary.custom:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.custom.dropdown-toggle:focus {
   box-shadow: unset;
 }
 
