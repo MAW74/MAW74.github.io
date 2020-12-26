@@ -9843,7 +9843,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .text-black-50 {
@@ -10295,6 +10295,10 @@ header.masthead .masthead-heading {
   padding-left: 0;
 }
 
-#story h3 {
-  color: #000 !important;
+#contact h3 {
+  color: #fff !important;
+}
+
+#team {
+  padding-bottom: 0 !important;
 }
